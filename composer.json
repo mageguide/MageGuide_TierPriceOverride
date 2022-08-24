@@ -1,0 +1,17 @@
+{
+    "name": "mageguide/override-tier-price",
+    "description": "TierPriceOverride is a useful Magento2 module especially for B2B eshops with hidden prices. It provides the possibility to show targetted discounts per customer by Setting as Base Price the Customer Group Price.",
+    "type": "magento2-module",
+    "require": {
+	    "php": "~7.1|~7.2|~7.3|~7.4",
+	    "magento/framework": "^100.0.0|^101.0.0|^102.0.0|^103.0.0|^104.0.0"
+	},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageGuide\\TierPriceOverride\\": "src/"
+        }
+    }
+}
